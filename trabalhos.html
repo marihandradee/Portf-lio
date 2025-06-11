@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projetos - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="projeto.css">
+
+
+</head>
+
+<body>
+  <header class="header">
+    <nav class="nav-container">
+      <div class="logo-area">
+        <div class="logo">
+          <img src="img/logo-removebg-preview (1) (1).png" alt="Logo Maria Eduarda">
+
+        </div>
+        <a href="index.html" class="nome-link">
+          <span>Maria Eduarda Andrade Ferreira</span>
+        </a>
+      </div>
+
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="eu.html">QUEM SOU EU?</a></li>
+        <li><a href="timeline.html">TIMELINE</a></li>
+        <li><a href="trabalhos.html">TRABALHOS</a></li>
+        <li><a href="#contato">CONTATO</a></li>
+
+
+      </ul>
+
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+    <div class="theme-switch-wrapper">
+    <label class="theme-switch">
+  <input type="checkbox" id="toggle-mode" />
+  <span class="slider">
+    <span class="icon sun">☀️</span>
+    <span class="icon moon">🌙</span>
+  </span>
+</label>
+
+    </div>
+
+  </header>
+
+  <div class="container">
+    <div class="header1">
+      <h1 class="title">Projetos</h1>
+    </div>
+
+    <div class="filter-buttons">
+      <button class="filter-btn active" data-filter="todos">Todos</button>
+      <button class="filter-btn" data-filter="desenvolvendo">Desenvolvendo</button>
+      <button class="filter-btn" data-filter="prontos">Prontos</button>
+    </div>
+
+
+    <div class="projects-grid">
+      <div class="project-card" data-category="prontos">
+        <div class="project-image">
+          <img src="img/cachorroimg.PNG">
+        </div>
+        <div class="project-content">
+          <h3 class="project-title">Meus Cachorros</h3>
+          <p class="project-tech">HTML, CSS</p>
+          <p class="project-description">Site pessoal para contar a história dos meus cachorros de forma visual e
+            afetuosa.</p>
+        </div>
+        <div class="project-overlay">
+          <div class="overlay-content">
+            <h3 class="overlay-title">Meus Cachorros</h3>
+            <p class="overlay-description">Uma homenagem emocionante e delicada aos companheiros de quatro patas que
+              fazem parte da família. Com um layout envolvente, este site aproxima o visitante da história por trás de
+              cada latido.</p>
+            <a href="https://marihandradee.github.io/Projeto-1/index.html" class="project-link">Ver Projeto</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card" data-category="prontos">
+        <div class="project-image">
+          <img src="img/carpediemimg.PNG">
+        </div>
+        <div class="project-content">
+          <h3 class="project-title">Carpe Diem</h3>
+          <p class="project-tech">HTML, CSS</p>
+          <p class="project-description">Site voltado para compartilhar histórias e reflexões sobre como as pessoas
+            aproveitam a vida.</p>
+        </div>
+        <div class="project-overlay">
+          <div class="overlay-content">
+            <h3 class="overlay-title">Carpe Diem</h3>
+            <p class="overlay-description">Inspirador e sensível, este site provoca reflexões sobre o presente e
+              valoriza cada instante vivido. Ideal para projetos que buscam impactar emocionalmente através da
+              simplicidade e autenticidade.</p>
+            <a href="https://marihandradee.github.io/Carpe-Diem-novo/" class="project-link">Ver Projeto</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card" data-category="desenvolvendo">
+        <div class="project-image">
+          <img src="img/maducakesnovo.PNG">
+        </div>
+        <div class="project-content">
+          <h3 class="project-title"> Madu Cakes</h3>
+          <p class="project-tech">HTML, CSS (Responsivo)</p>
+          <p class="project-description"> Loja fictícia de cupcakes com um design delicado e adaptável a diferentes
+            telas.</p>
+        </div>
+        <div class="project-overlay">
+          <div class="overlay-content">
+            <h3 class="overlay-title">Madu Cakes</h3>
+            <p class="overlay-description">Um site doce, leve e encantador que convida o visitante a conhecer sabores
+              únicos através de uma experiência visual caprichosa e moderna. Perfeito para negócios que desejam refletir
+              delicadeza e profissionalismo.</p>
+            <a href="https://marihandradee.github.io/Madu-Cakes-Novos/" class="project-link">Em Desenvolvimento</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card" data-category="prontos">
+        <div class="project-image">
+          <img src="img/divertidamente2.PNG" alt="Portfolio">
+        </div>
+        <div class="project-content">
+          <h3 class="project-title">Divertidamente</h3>
+          <p class="project-tech">HTML, CSS (Flexbox e Grid, Responsivo)</p>
+          <p class="project-description">Projeto inspirado no filme Divertida Mente, com estrutura moderna e responsiva.
+          </p>
+        </div>
+        <div class="project-overlay">
+          <div class="overlay-content">
+            <h3 class="overlay-title">Divertidamente</h3>
+            <p class="overlay-description">Uma jornada interativa pelo universo das emoções! Com visual vibrante e
+              estrutura organizada, o site encanta e educa ao mesmo tempo — perfeito para públicos de todas as idades.
+            </p>
+            <a href="https://marihandradee.github.io/Divertidamente_/" class="project-link">Ver Projeto</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card" data-category="desenvolvendo">
+        <div class="project-image">
+          <img src="img/saboresdaterra.PNG" alt="Sabores-da-Terra">
+        </div>
+        <div class="project-content">
+          <h3 class="project-title">Sabores da Terra</h3>
+          <p class="project-tech">HTML, CSS (Responsivo, com formulário)</p>
+          <p class="project-description">Site para um restaurante estilo Casa do Norte com sistema de reservas por
+            formulário.</p>
+        </div>
+        <div class="project-overlay">
+          <div class="overlay-content">
+            <h3 class="overlay-title">Sabores da Terra</h3>
+            <p class="overlay-description"> Uma verdadeira experiência nordestina online! Com design acolhedor e
+              funcional, o site permite reservas com praticidade enquanto transmite toda a essência cultural e
+              gastronômica do interior.</p>
+            <a href="https://marihandradee.github.io/Sabores-da-Terra/" class="project-link">Em Desenvolvimento</a>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="project-card" data-category="prontos">
+        <div class="project-image">
+          <img src="img/robofuturista.img" alt="Task Manager">
+        </div>
+        <div class="project-content">
+          <h3 class="project-title">Projetos Interativos</h3>
+          <p class="project-tech">HTML, CSS (com Keyframes)</p>
+          <p class="project-description">Demonstrações criativas de diferentes tipos de animações feitas apenas com CSS.
+          </p>
+        </div>
+        <div class="project-overlay">
+          <div class="overlay-content">
+            <h3 class="overlay-title">Projetos Interativos</h3>
+            <p class="overlay-description"> Um verdadeiro laboratório de criatividade visual! Explore transições,
+              movimentos e efeitos únicos — tudo com puro CSS. Ideal para inspirar novos desenvolvedores e mostrar o
+              poder do front-end sem JavaScript.</p>
+            <a href="https://marihandradee.github.io/Projetos-Interativos/" class="project-link">Em Desenvolvimento</a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="project-card" data-category="prontos">
+        <div class="project-image">
+          <img src="img/sistemasolarimg.PNG">
+        </div>
+        <div class="project-content">
+          <h3 class="project-title">Sistema Solar</h3>
+          <p class="project-tech">HTML, CSS (com Keyframes)</p>
+          <p class="project-description">Animação do sistema solar com movimento dos planetas em torno do Sol.</p>
+        </div>
+        <div class="project-overlay">
+          <div class="overlay-content">
+            <h3 class="overlay-title">Sistema Solar</h3>
+            <p class="overlay-description">Um espetáculo visual do universo em movimento! Esse site educativo mostra de
+              forma lúdica e envolvente a dança dos planetas, ideal para projetos escolares ou explicações interativas.
+            </p>
+            <a href="https://marihandradee.github.io/Sistema-Solar/" class="project-link">Ver Projeto</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Caixa com retângulo -->
+  <div class="knowledge-box">
+    <!-- Seção Conhecimentos -->
+    <section class="knowledge-section">
+      <h2 class="section-title">Conhecimentos</h2>
+      <p class="knowledge-subtitle">*passe o cursor do mouse no card para ler*</p>
+<div class="knowledge-content">
+  <!-- Grid de ícones -->
+  <div class="skills-grid">
+    <!-- HTML5 -->
+    <div class="skill-card" data-skill="html">
+      <img src="img/174854.png" alt="HTML5" class="skill-icon">
+    </div>
+
+    <!-- CSS3 -->
+    <div class="skill-card" data-skill="css">
+      <img src="img/111-removebg-preview.png" alt="CSS3" class="skill-icon">
+    </div>
+
+    <!-- Figma -->
+    <div class="skill-card" data-skill="figma">
+      <img src="img/figma-logo-512.webp" alt="Figma" class="skill-icon">
+    </div>
+  </div>
+</div>
+
+
+        <!-- Descrição lateral -->
+        <div class="description-area">
+          <div class="description-card placeholder" id="description">
+            <p class="placeholder-text">
+              Passe o mouse sobre os ícones para ver as descrições
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+   <div class="cursos-container">
+        <h1>CURSOS</h1>
+        
+        <div class="cursos-grid">
+            <div class="curso-item">
+                <a href="https://www.linkedin.com/in/maria-eduarda-andrade-ferreira-38895b348/" class="curso-link" target="_blank">
+                    <div class="curso-circle cisco">
+                        <div class="cisco-logo">CISCO</div>
+                    </div>
+                    <div class="curso-nome">Cisco</div>
+                </a>
+            </div>
+            
+            <div class="curso-item">
+                <a href="https://www.linkedin.com/in/maria-eduarda-andrade-ferreira-38895b348/" class="curso-link" target="_blank">
+                    <div class="curso-circle senai">
+                        <div class="senai-logo">SENAI</div>
+                    </div>
+                    <div class="curso-nome">Senai</div>
+                </a>
+            </div>
+            
+            <div class="curso-item">
+                <a href="https://www.linkedin.com/in/maria-eduarda-andrade-ferreira-38895b348/" class="curso-link" target="_blank">
+                    <div class="curso-circle sebrae">
+                        <div class="sebrae-logo">SEBRAE</div>
+                    </div>
+                    <div class="curso-nome">Sebrae</div>
+                </a>
+            </div>
+        </div>
+    </div>
+  <script src="java.js"></script>
+  <footer class="footer" id="contato">
+
+    <div class="decorative-element"></div>
+
+    <!-- Logo no canto direito -->
+    <div class="logo-container">
+      <div class="logo-bg">
+        <div class="logo-content">
+          <div class="logo-circles">
+            <div class="logo-circle circle-1"></div>
+            <div class="logo-circle circle-2"></div>
+          </div>
+          <div class="logo-text">M</div>
+          <div class="logo-stars">
+            <div class="star star-1">✦</div>
+            <div class="star star-2">✦</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    <div class="footer-content">
+      <h2>Contatos</h2>
+
+      <div class="contact-links">
+        <div class="contact-item" onclick="window.open('mailto:al3302298@gmail.com', '_blank')">
+          <svg class="icon" viewBox="0 0 24 24">
+            <path
+              d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+          </svg>
+          <span class="contact-text">al3302298@gmail.com</span>
+        </div>
+
+        <div class="contact-item"
+          onclick="window.open('https://www.linkedin.com/in/maria-eduarda-andrade-ferreira-38895b348')">
+          <svg class="icon" viewBox="0 0 24 24">
+            <path
+              d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+          </svg>
+          <span class="contact-text">@Maria Andrade</span>
+        </div>
+
+        <div class="contact-item"
+          onclick="window.open('https://www.instagram.com/marih_andradee?igsh=bzUxdDB1c2p0Yndo&utm_source=qr')">
+          <svg class="icon" viewBox="0 0 24 24">
+            <path
+              d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+          </svg>
+          <span class="contact-text">@marihandradee</span>
+        </div>
+
+        <div class="contact-item" onclick="window.open('https://github.com/marihandradee')">
+          <svg class="icon" viewBox="0 0 24 24">
+            <path
+              d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+          </svg>
+          <span class="contact-text">marihandradee</span>
+        </div>
+      </div>
+
+      <div class="footer-message">
+        Desenvolvimento e design feito por mim com muito 🤍
+      </div>
+    </div>
+  </footer>
+
+  ,
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      // Filter functionality
+      const filterButtons = document.querySelectorAll('.filter-btn');
+      const projectCards = document.querySelectorAll('.project-card');
+
+      filterButtons.forEach(button => {
+        button.addEventListener('click', () => {
+          // Remove active class from all buttons
+          filterButtons.forEach(btn => btn.classList.remove('active'));
+          // Add active class to clicked button
+          button.classList.add('active');
+
+          const filterValue = button.getAttribute('data-filter');
+
+          projectCards.forEach(card => {
+            const cardCategory = card.getAttribute('data-category');
+            if (filterValue === 'todos' || cardCategory === filterValue) {
+              card.style.display = 'block';
+              // Re-trigger animation
+              card.style.animation = 'none';
+              setTimeout(() => {
+                card.style.animation = 'slideUp 0.8s ease-out';
+              }, 10);
+            } else {
+              card.style.display = 'none';
+            }
+          });
+        });
+      });
+
+      // Scroll animations
+      const observerOptions = {
+        threshold: 0.1,
+        rootMargin: '0px 0px -50px 0px'
+      };
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+          }
+        });
+      }, observerOptions);
+
+      // Observe all project cards
+      projectCards.forEach(card => {
+        card.classList.add('fade-in');
+        observer.observe(card);
+      });
+
+      // Parallax effect for background
+      window.addEventListener('scroll', () => {
+        const scrolled = window.pageYOffset;
+        const parallax = document.querySelector('body');
+        const speed = scrolled * 0.5;
+        parallax.style.backgroundPosition = `center ${speed}px`;
+      });
+
+      // Add loading animation delay
+      const cards = document.querySelectorAll('.project-card');
+      cards.forEach((card, index) => {
+        setTimeout(() => {
+          card.style.opacity = '1';
+          card.style.transform = 'translateY(0) scale(1)';
+        }, index * 100);
+      });
+    });
+
+    // Dados das habilidades
+    const skills = {
+      html: { name: 'HTML5', description: 'Linguagem de marcação para estrutura web' },
+      css: { name: 'CSS3', description: 'Folhas de estilo para design e layout' },
+      figma: { name: 'Figma', description: 'Ferramenta de design colaborativo' }
+    };
+
+    // Elementos
+    const skillCards = document.querySelectorAll('.skill-card');
+    const descriptionArea = document.getElementById('description');
+
+    // Função para mostrar descrição
+    function showDescription(skillId) {
+      const skill = skills[skillId];
+      if (skill) {
+        descriptionArea.className = 'description-card active';
+        descriptionArea.innerHTML = `
+                    <h3 class="description-title">${skill.name}</h3>
+                    <p class="description-text">${skill.description}</p>
+                `;
+      }
+    }
+
+    // Função para esconder descrição
+    function hideDescription() {
+      descriptionArea.className = 'description-card placeholder';
+      descriptionArea.innerHTML = `
+                <p class="placeholder-text">
+                    Passe o mouse sobre os ícones para ver as descrições
+                </p>
+            `;
+    }
+
+    // Adicionar event listeners
+    skillCards.forEach(card => {
+      const skillId = card.dataset.skill;
+
+      card.addEventListener('mouseenter', () => {
+        // Remover classe active de todos os cards
+        skillCards.forEach(c => c.classList.remove('active'));
+        // Adicionar classe active ao card atual
+        card.classList.add('active');
+        // Mostrar descrição
+        showDescription(skillId);
+      });
+
+      card.addEventListener('mouseleave', () => {
+        // Remover classe active
+        card.classList.remove('active');
+        // Esconder descrição
+        hideDescription();
+      });
+    });
+  </script>
+</body>
+
+</html>
+
+
+      
+       
+         
+       
+    
