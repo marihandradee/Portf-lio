@@ -677,7 +677,7 @@ header {
 .timeline-header h1 {
     padding: clamp(20px, 8vw, 70px);
     font-size: clamp(1.8rem, 5vw, 2.8rem);
-    color: #080408bd;
+    color: #ffffff;
     font-weight: 800;
     letter-spacing: 3px;
     margin-bottom: 20px;
